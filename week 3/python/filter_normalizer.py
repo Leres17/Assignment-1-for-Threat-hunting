@@ -132,11 +132,11 @@ def filter_data(lines):
 
     Removes:
     - empty lines
-    - rows without a valid IP, domain or URL
+    - rows with invalid IOC values
+    - rows without any valid IOC
     - duplicate rows
 
-    A row is kept if it contains at least
-    one valid IOC.
+    Empty optional fields are removed from the output.
     """
 
     filtered = []
@@ -146,45 +146,65 @@ def filter_data(lines):
 
         original_line = line.strip()
 
-        # Ignore empty lines
         if not original_line:
             continue
 
         data = parse_line(original_line)
 
-        ip = data.get("IP", "")
-        domain = data.get("Domain", "")
-        url = data.get("URL", "")
+        ip = data.get("IP", "").strip()
+        domain = data.get("Domain", "").strip()
+        url = data.get("URL", "").strip()
 
-        # Check whether at least one IOC is valid
-        valid_ioc = False
+        # If a field contains a value, it must be valid.
+        # Empty fields are allowed.
 
-        if is_valid_ip(ip):
-            valid_ioc = True
-
-        if is_valid_domain(domain):
-            valid_ioc = True
-
-        if is_valid_url(url):
-            valid_ioc = True
-
-        # Remove rows containing no valid IOC
-        if not valid_ioc:
+        if ip and not is_valid_ip(ip):
             continue
 
-        # Used only for duplicate detection.
-        # Original formatting is still preserved.
-        duplicate_key = original_line.lower()
+        if domain and not is_valid_domain(domain):
+            continue
+
+        if url and not is_valid_url(url):
+            continue
+
+        # At least one IOC must exist
+        if not ip and not domain and not url:
+            continue
+
+        # Build a clean filtered record.
+        # Empty fields are not included.
+
+        fields = []
+
+        if ip:
+            fields.append(f"IP={ip}")
+
+        if domain:
+            fields.append(f"Domain={domain}")
+
+        if url:
+            fields.append(f"URL={url}")
+
+        if data.get("Type", "").strip():
+            fields.append(f"Type={data.get('Type').strip()}")
+
+        if data.get("Source", "").strip():
+            fields.append(f"Source={data.get('Source').strip()}")
+
+        if data.get("Date", "").strip():
+            fields.append(f"Date={data.get('Date').strip()}")
+
+        cleaned_line = " | ".join(fields)
+
+        # Duplicate detection
+        duplicate_key = cleaned_line.lower()
 
         if duplicate_key in seen:
             continue
 
         seen.add(duplicate_key)
 
-        # IMPORTANT:
-        # Filtering does not normalize the data.
-        # The original line is saved.
-        filtered.append(original_line)
+        filtered.append(cleaned_line)
 
     return filtered
 
@@ -301,12 +321,10 @@ with open(INPUT_FILE, "r", encoding="utf-8") as file:
 
 filtered_data = filter_data(raw_data)
 
+
 with open(FILTERED_FILE, "w", encoding="utf-8") as file:
-
     for line in filtered_data:
-        file.write(line + "\n")
-
-
+        file.write(line + "\n\n")
 
 # Normalization
 
@@ -314,9 +332,8 @@ with open(FILTERED_FILE, "w", encoding="utf-8") as file:
 normalized_data = normalize_data(filtered_data)
 
 with open(NORMALIZED_FILE, "w", encoding="utf-8") as file:
-
     for line in normalized_data:
-        file.write(line + "\n")
+        file.write(line + "\n\n")
 
 
 

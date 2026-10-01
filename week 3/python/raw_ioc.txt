@@ -1,37 +1,9 @@
-IP=185.123.45.67 | Domain=example.com | URL=https://example.com/path | Type=HTTP Flood | Source=CISA | Date=2026-09-20
-IP=45.67.123.89 | Domain=attack-example.net | URL=http://attack-example.net/flood | Type=UDP Flood | Source=Abuse.ch | Date=2026-09-21
-IP=103.45.67.12 | Domain=malicious-example.org | URL=https://malicious-example.org/ | Type=TCP SYN Flood | Source=OTX | Date=2026-09-21
-IP=185.123.45.67 | Domain=example.com | URL=https://example.com/path | Type=HTTP Flood | Source=CISA | Date=2026-09-20
+IP=5.61.209.44 | Type=botnet c2 | Source=ThreatFox | Date=2026-07-31
 
-IP=10.0.0.5 | Domain=internal.local | URL=http://internal.local | Type=UDP Flood | Source=Example | Date=2026-09-20
-IP=192.168.1.25 | Domain= | URL=http://test.com | Type=HTTP Flood | Source=Example | Date=2026-09-20
-IP=172.16.0.10 | Domain=test.local | URL= | Type=TCP Flood | Source=Example | Date=2026-09-21
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
 
-IP=999.999.999.999 | Domain=bad-domain | URL=http://bad-domain | Type=HTTP Flood | Source=Example | Date=2026-09-21
-IP=not_an_ip | Domain=example.net | URL=https://example.net | Type=UDP Flood | Source=Example | Date=2026-09-21
-IP= | Domain=BAD Domain | URL= | Type= | Source=Example | Date=2026-09-21
+IP=160.119.71.125 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
 
-IP=8.8.8.8 | Domain=Google.COM | URL=https://Google.COM/test | Type=DNS Flood | Source=TestSource | Date=2026-09-22
-IP=1.1.1.1 | Domain=Cloudflare.COM | URL=https://Cloudflare.COM/dns | Type=DNS Flood | Source=TestSource | Date=2026-09-22
-IP=203.0.113.25 | Domain=Example-DDoS.COM | URL=http://Example-DDoS.COM/test | Type=HTTP Flood | Source=Research | Date=2026-09-23
+IP=206.189.146.157 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
 
-IP=203.0.113.26 | Domain=example-ddos.com | URL= | Type=HTTP Flood | Source=Research | Date=
-IP=203.0.113.27 | Domain= | URL=https://example.org/test | Type=TCP SYN Flood | Source=Research | Date=2026-09-23
-
-IP=8.8.8.8 | Domain=google.com | URL=https://google.com/test | Type=DNS Flood | Source=TestSource | Date=2026-09-22
-IP=45.67.123.89 | Domain=attack-example.net | URL=http://attack-example.net/flood | Type=UDP Flood | Source=Abuse.ch | Date=2026-09-21
-
-IP=256.256.256.256 | Domain=example.org | URL=https://example.org | Type=HTTP Flood | Source=Test | Date=2026-09-24
-IP=123.456.78.90 | Domain=example.org | URL=https://example.org | Type=HTTP Flood | Source=Test | Date=2026-09-24
-IP= | Domain= | URL= | Type= | Source= | Date=
-
-IP=198.51.100.10 | Domain=TEST.COM | URL=HTTP://TEST.COM/PATH | Type=HTTP Flood | Source=Research | Date=2026-09-25
-IP=198.51.100.11 | Domain=Example.NET | URL=HTTPS://Example.NET/API | Type=UDP Flood | Source=Research | Date=2026-09-25
-IP=198.51.100.12 | Domain=example.net | URL=https://example.net/api | Type=UDP Flood | Source=Research | Date=2026-09-25
-
-IP=10.10.10.10 | Domain=private-network.local | URL= | Type=TCP Flood | Source=Test | Date=2026-09-26
-IP=127.0.0.1 | Domain=localhost | URL=http://localhost | Type=HTTP Flood | Source=Test | Date=2026-09-26
-
-IP=203.0.113.50 | Domain=  Example.COM  | URL=  HTTPS://Example.COM/Test  | Type=  HTTP Flood  | Source= Research | Date=2026-09-27
-IP=203.0.113.51 | Domain=MixedCase.ORG | URL=https://MixedCase.ORG/path | Type=UDP FLOOD | Source=Research | Date=2026-09-27
-IP=203.0.113.52 | Domain=normal-domain.org | URL=https://normal-domain.org/path | Type=TCP SYN FLOOD | Source=Research | Date=2026-09-27
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13

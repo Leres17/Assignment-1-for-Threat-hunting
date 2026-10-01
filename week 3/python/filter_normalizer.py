@@ -132,11 +132,11 @@ def filter_data(lines):
 
     Removes:
     - empty lines
-    - rows with invalid IOC values
+    - invalid IP/domain/URL values
     - rows without any valid IOC
     - duplicate rows
 
-    Empty optional fields are removed from the output.
+    Empty optional fields are removed.
     """
 
     filtered = []
@@ -155,8 +155,7 @@ def filter_data(lines):
         domain = data.get("Domain", "").strip()
         url = data.get("URL", "").strip()
 
-        # If a field contains a value, it must be valid.
-        # Empty fields are allowed.
+        # Validate fields only if they contain a value
 
         if ip and not is_valid_ip(ip):
             continue
@@ -168,11 +167,11 @@ def filter_data(lines):
             continue
 
         # At least one IOC must exist
+
         if not ip and not domain and not url:
             continue
 
-        # Build a clean filtered record.
-        # Empty fields are not included.
+        # Build clean record
 
         fields = []
 
@@ -185,18 +184,23 @@ def filter_data(lines):
         if url:
             fields.append(f"URL={url}")
 
-        if data.get("Type", "").strip():
-            fields.append(f"Type={data.get('Type').strip()}")
+        ioc_type = data.get("Type", "").strip()
+        source = data.get("Source", "").strip()
+        date = data.get("Date", "").strip()
 
-        if data.get("Source", "").strip():
-            fields.append(f"Source={data.get('Source').strip()}")
+        if ioc_type:
+            fields.append(f"Type={ioc_type}")
 
-        if data.get("Date", "").strip():
-            fields.append(f"Date={data.get('Date').strip()}")
+        if source:
+            fields.append(f"Source={source}")
+
+        if date:
+            fields.append(f"Date={date}")
 
         cleaned_line = " | ".join(fields)
 
-        # Duplicate detection
+        # Remove duplicates
+
         duplicate_key = cleaned_line.lower()
 
         if duplicate_key in seen:
@@ -245,27 +249,12 @@ def normalize_url(url):
 
 
 def normalize_data(lines):
-    """
-    Normalization stage.
-
-    Standardizes:
-    - spaces
-    - domain to lowercase
-    - URL scheme and hostname to lowercase
-    - Type to lowercase
-    - Source spacing
-    - Date spacing
-
-    Missing fields are preserved as empty values.
-    """
-
     normalized = []
 
     for line in lines:
 
         data = parse_line(line)
 
-        # Missing fields become empty strings.
         ip = data.get("IP", "").strip()
         domain = data.get("Domain", "").strip().lower()
         url = data.get("URL", "").strip()
@@ -276,20 +265,30 @@ def normalize_data(lines):
         # Normalize URL
         url = normalize_url(url)
 
-        # Create one standardized format
-        output = (
-            f"IP={ip} | "
-            f"Domain={domain} | "
-            f"URL={url} | "
-            f"Type={ioc_type} | "
-            f"Source={source} | "
-            f"Date={date}"
-        )
+        # Build normalized record
+        fields = []
 
-        normalized.append(output)
+        if ip:
+            fields.append(f"IP={ip}")
+
+        if domain:
+            fields.append(f"Domain={domain}")
+
+        if url:
+            fields.append(f"URL={url}")
+
+        if ioc_type:
+            fields.append(f"Type={ioc_type}")
+
+        if source:
+            fields.append(f"Source={source}")
+
+        if date:
+            fields.append(f"Date={date}")
+
+        normalized.append(" | ".join(fields))
 
     return normalized
-
 
 
 # MAIN 

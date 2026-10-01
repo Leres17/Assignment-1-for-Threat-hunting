@@ -1,0 +1,325 @@
+{
+    "Event": {
+        "info": "DDoS Threat Intelligence - Enriched IOC",
+        "distribution": "0",
+        "analysis": "0",
+        "threat_level_id": "2",
+        "Attribute": [
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "5.61.209.44",
+                "to_ids": true,
+                "comment": "Threat Type: botnet c2 | Source: ThreatFox | Date: 2026-07-31 | VT Country: SC | VT ASN: 206264 | VT AS Owner: Amarutu Technology Ltd | VT Malicious: 15 | VT Suspicious: 2 | VT Harmless: 47 | VT Undetected: 27"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "47.107.224.89",
+                "to_ids": true,
+                "comment": "Threat Type: ddos botnet c2 | Source: ThreatFox | Date: 2026-07-13 | VT Country: CN | VT ASN: 37963 | VT AS Owner: Hangzhou Alibaba Advertising Co.,Ltd. | VT Malicious: 9 | VT Suspicious: 0 | VT Harmless: 50 | VT Undetected: 32 | Shodan Country: China | Shodan City: Shenzhen | Shodan Organization: Aliyun Computing Co., LTD | Shodan ISP: Hangzhou Alibaba Advertising Co.,Ltd. | Shodan ASN: AS37963 | Shodan Ports: 80,7001,123,443"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "160.119.71.125",
+                "to_ids": true,
+                "comment": "Threat Type: ddos botnet c2 | Source: ThreatFox | Date: 2026-07-13 | VT Country: SC | VT ASN: 49870 | VT AS Owner: Alsycon B.V. | VT Malicious: 7 | VT Suspicious: 0 | VT Harmless: 50 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "206.189.146.157",
+                "to_ids": true,
+                "comment": "Threat Type: ddos botnet c2 | Source: ThreatFox | Date: 2026-07-13 | VT Country: SG | VT ASN: 14061 | VT AS Owner: DigitalOcean, LLC | VT Malicious: 6 | VT Suspicious: 2 | VT Harmless: 51 | VT Undetected: 32"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "74.194.191.52",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet c2 | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 19108 | VT AS Owner: Optimum | VT Malicious: 19 | VT Suspicious: 2 | VT Harmless: 42 | VT Undetected: 28"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "88.221.169.152",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: DE | VT ASN: 16625 | VT AS Owner: Akamai Technologies, Inc. | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 55 | VT Undetected: 36"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "23.216.77.28",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: DE | VT ASN: 20940 | VT AS Owner: Akamai International B.V. | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "48.192.1.64",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 1 | VT Harmless: 54 | VT Undetected: 36"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "150.171.28.11",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 56 | VT Undetected: 35"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "142.251.20.132",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 15169 | VT AS Owner: Google LLC | VT Malicious: 1 | VT Suspicious: 0 | VT Harmless: 56 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "20.31.169.57",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: NL | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "150.171.22.17",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 55 | VT Undetected: 36 | Shodan Country: United States | Shodan City: Redmond | Shodan Organization: Microsoft Corporation | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 80,443 | Shodan Hostnames: ln-0007.ln-msedge.net"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "57.153.246.3",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: NL | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37 | Shodan Country: Netherlands | Shodan City: Amsterdam | Shodan Organization: Microsoft Limited UK | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 443 | Shodan Hostnames: settings.data.microsoft.com"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "150.171.109.193",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 1 | VT Suspicious: 0 | VT Harmless: 55 | VT Undetected: 35 | Shodan Country: United States | Shodan City: Redmond | Shodan Organization: Microsoft Corporation | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 80,443 | Shodan Hostnames: apps.martinservera.se"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "150.171.27.11",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 55 | VT Undetected: 36 | Shodan Country: United States | Shodan City: Redmond | Shodan Organization: Microsoft Corporation | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 80,443 | Shodan Hostnames: ax-0002.ax-msedge.net"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "150.171.109.194",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 56 | VT Undetected: 35 | Shodan Country: United States | Shodan City: Redmond | Shodan Organization: Microsoft Corporation | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 80,443 | Shodan Hostnames: tr.gigroup.com,hanport.hem.se"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "92.123.104.33",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: DE | VT ASN: 20940 | VT AS Owner: Akamai International B.V. | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "142.251.110.95",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: US | VT ASN: 15169 | VT AS Owner: Google LLC | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "74.178.240.61",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: NL | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 56 | VT Undetected: 35 | Shodan Country: Netherlands | Shodan City: Amsterdam | Shodan Organization: Microsoft Corporation | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 443 | Shodan Hostnames: sls.update.microsoft.com,glb.sls.prod.dcat.dsp.trafficmanager.net"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "23.52.181.141",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: DE | VT ASN: 16625 | VT AS Owner: Akamai Technologies, Inc. | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "20.190.160.2",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "104.18.22.222",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT ASN: 13335 | VT AS Owner: Cloudflare, Inc. | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 55 | VT Undetected: 36"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "48.209.6.48",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: NL | VT ASN: 8075 | VT AS Owner: Microsoft Corporation | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 54 | VT Undetected: 37 | Shodan Country: Netherlands | Shodan City: Amsterdam | Shodan Organization: Microsoft Limited | Shodan ISP: Microsoft Corporation | Shodan ASN: AS8075 | Shodan Ports: 443 | Shodan Hostnames: settings.data.microsoft.com"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "23.52.181.212",
+                "to_ids": true,
+                "comment": "Threat Type: rondodox botnet | Source: ANY.RUN | Date: 2026-05-18 | VT Country: DE | VT ASN: 16625 | VT AS Owner: Akamai Technologies, Inc. | VT Malicious: 0 | VT Suspicious: 0 | VT Harmless: 55 | VT Undetected: 36 | Shodan Country: Germany | Shodan City: Frankfurt am Main | Shodan Organization: Akamai Technologies, Inc. | Shodan ISP: Akamai Technologies, Inc. | Shodan ASN: AS16625 | Shodan Ports: 80,443 | Shodan Hostnames: c.s-microsoft.com,a23-52-181-212.deploy.static.akamaitechnologies.com,i.s-microsoft.com,privacy.microsoft.com,wwwqa.microsoft.com,e13678.dspb.akamaiedge.net,staticview.microsoft.com,microsoft.com,www.microsoft.com"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "45.116.104.104",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-06-02 | VT Country: NL | VT ASN: 215481 | VT AS Owner: FlexyNode | VT Malicious: 9 | VT Suspicious: 1 | VT Harmless: 49 | VT Undetected: 32"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "163.181.208.79",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-06-08 | VT Country: US | VT ASN: 134963 | VT AS Owner: Alibaba Cloud (Singapore) Private Limited | VT Malicious: 5 | VT Suspicious: 1 | VT Harmless: 53 | VT Undetected: 32 | Shodan Country: Hong Kong | Shodan City: Hong Kong | Shodan Organization: Alibaba Cloud LLC | Shodan ISP: Zhejiang Taobao Network Co.,Ltd | Shodan ASN: AS24429 | Shodan Ports: 4506,22"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "192.227.155.185",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-06-02 | VT Country: US | VT ASN: 36352 | VT AS Owner: HostPapa | VT Malicious: 7 | VT Suspicious: 2 | VT Harmless: 49 | VT Undetected: 33 | Shodan Country: United States | Shodan City: Elk Grove Village | Shodan Organization: RackNerd LLC | Shodan ISP: HostPapa | Shodan ASN: AS36352 | Shodan Ports: 22 | Shodan Hostnames: 192-227-155-185-host.colocrossing.com"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "185.122.171.124",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-07-02 | VT Country: NL | VT ASN: 214927 | VT AS Owner: Psb Hosting Ltd | VT Malicious: 6 | VT Suspicious: 1 | VT Harmless: 51 | VT Undetected: 33"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "165.232.154.73",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-06-02 | VT Country: US | VT ASN: 14061 | VT AS Owner: DigitalOcean, LLC | VT Malicious: 8 | VT Suspicious: 1 | VT Harmless: 49 | VT Undetected: 33 | Shodan Country: United States | Shodan City: Santa Clara | Shodan Organization: DigitalOcean, LLC | Shodan ISP: DigitalOcean, LLC | Shodan ASN: AS14061 | Shodan Ports: 22"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "95.81.79.153",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-06-24 | VT Country: FI | VT ASN: 207569 | VT AS Owner: Ihor Hosting Ltd | VT Malicious: 5 | VT Suspicious: 1 | VT Harmless: 51 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "64.89.162.59",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-06-11 | VT Country: US | VT ASN: 198584 | VT AS Owner: PIO-Hosting GmbH | VT Malicious: 12 | VT Suspicious: 1 | VT Harmless: 46 | VT Undetected: 32"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "64.89.163.22",
+                "to_ids": true,
+                "comment": "Threat Type: botnet cryptominer | Source: ThreatFox | Date: 2026-06-19 | VT Country: US | VT ASN: 401626 | VT AS Owner: Netiface America, Inc. | VT Malicious: 19 | VT Suspicious: 3 | VT Harmless: 42 | VT Undetected: 27"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "125.104.168.68",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-07-06 | VT Country: CN | VT ASN: 4134 | VT AS Owner: Chinanet | VT Malicious: 10 | VT Suspicious: 2 | VT Harmless: 48 | VT Undetected: 31"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "192.140.176.79",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-06-02 | VT Country: CN | VT ASN: 146817 | VT AS Owner: Hubei Feixun Network Co., Ltd | VT Malicious: 14 | VT Suspicious: 2 | VT Harmless: 45 | VT Undetected: 30"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "64.83.17.81",
+                "to_ids": true,
+                "comment": "Threat Type: botnet malware | Source: ThreatFox | Date: 2026-07-14 | VT Country: US | VT ASN: 979 | VT AS Owner: NetLab Global | VT Malicious: 5 | VT Suspicious: 2 | VT Harmless: 49 | VT Undetected: 35"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "173.249.22.152",
+                "to_ids": true,
+                "comment": "Threat Type: botnet malware | Source: ThreatFox | Date: 2026-07-09 | VT Country: FR | VT ASN: 51167 | VT AS Owner: Contabo GmbH | VT Malicious: 10 | VT Suspicious: 1 | VT Harmless: 46 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "139.196.223.82",
+                "to_ids": true,
+                "comment": "Threat Type: botnet c2 loader | Source: ThreatFox | Date: 2026-06-02 | VT Country: CN | VT ASN: 37963 | VT AS Owner: Hangzhou Alibaba Advertising Co.,Ltd. | VT Malicious: 10 | VT Suspicious: 3 | VT Harmless: 47 | VT Undetected: 31 | Shodan Country: China | Shodan City: Shanghai | Shodan Organization: Aliyun Computing Co., LTD | Shodan ISP: Hangzhou Alibaba Advertising Co.,Ltd. | Shodan ASN: 37963 | Shodan Ports: 80,443 | Shodan Hostnames: jdmap.org,api.jdmap.org"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "194.48.251.24",
+                "to_ids": true,
+                "comment": "Threat Type: botnet malware | Source: ThreatFox | Date: 2026-06-19 | VT Country: BG | VT Malicious: 12 | VT Suspicious: 1 | VT Harmless: 44 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "167.88.168.76",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-06-02 | VT Country: US | VT ASN: 14956 | VT AS Owner: RouterHosting LLC | VT Malicious: 4 | VT Suspicious: 2 | VT Harmless: 51 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "117.72.206.39",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-06-02 | VT Country: CN | VT ASN: 141679 | VT AS Owner: China Telecom Beijing Tianjin Hebei Big Data Industry Park Branch | VT Malicious: 11 | VT Suspicious: 2 | VT Harmless: 47 | VT Undetected: 31 | Shodan Country: China | Shodan City: Tianjin | Shodan Organization: Beijing Jingdong 360 Degree E-commerce Co., Ltd. | Shodan ISP: China Telecom Beijing Tianjin Hebei Big Data Industry Park Branch | Shodan ASN: 141679 | Shodan Ports: 1433"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "54.165.230.182",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-06-02 | VT Country: US | VT ASN: 14618 | VT AS Owner: Amazon.com, Inc. | VT Malicious: 3 | VT Suspicious: 1 | VT Harmless: 53 | VT Undetected: 34"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "91.221.191.167",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-06-06 | VT Country: NL | VT ASN: 62005 | VT AS Owner: BlueVPS OU | VT Malicious: 3 | VT Suspicious: 1 | VT Harmless: 52 | VT Undetected: 35"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "156.245.144.203",
+                "to_ids": true,
+                "comment": "Threat Type: botnet espionage | Source: ThreatFox | Date: 2026-06-02 | VT Country: SG | VT ASN: 54801 | VT AS Owner: Zillion Network Inc. | VT Malicious: 9 | VT Suspicious: 1 | VT Harmless: 46 | VT Undetected: 35"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "217.217.97.75",
+                "to_ids": true,
+                "comment": "Threat Type: botnet loader | Source: ThreatFox | Date: 2026-07-06 | VT Country: FR | VT ASN: 214961 | VT AS Owner: Stellar Group SAS | VT Malicious: 19 | VT Suspicious: 0 | VT Harmless: 44 | VT Undetected: 28"
+            },
+            {
+                "type": "ip-src",
+                "category": "Network activity",
+                "value": "199.217.99.189",
+                "to_ids": true,
+                "comment": "Threat Type: botnet malware | Source: ThreatFox | Date: 2026-06-30 | Shodan Country: United States | Shodan City: Columbus | Shodan Organization: MadeIT inc. | Shodan ISP: MadeIT inc. | Shodan ASN: AS54455 | Shodan Ports: 80,443,22"
+            }
+        ]
+    }
+}

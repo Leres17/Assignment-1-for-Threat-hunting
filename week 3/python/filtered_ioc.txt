@@ -1,0 +1,8 @@
+IP=5.61.209.44 | Type=botnet c2 | Source=ThreatFox | Date=2026-07-31
+
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+
+IP=160.119.71.125 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+
+IP=206.189.146.157 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+

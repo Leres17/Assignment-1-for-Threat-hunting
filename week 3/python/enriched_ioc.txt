@@ -1,0 +1,8 @@
+IP=5.61.209.44 | Type=botnet c2 | Source=ThreatFox | Date=2026-07-31
+
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13 | VT_Country=CN | VT_ASN=37963 | VT_AS_Owner=Hangzhou Alibaba Advertising Co.,Ltd. | VT_Malicious=9 | VT_Suspicious=0 | VT_Harmless=50 | VT_Undetected=32
+
+IP=160.119.71.125 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13 | VT_Country=SC | VT_ASN=49870 | VT_AS_Owner=Alsycon B.V. | VT_Malicious=7 | VT_Suspicious=0 | VT_Harmless=50 | VT_Undetected=34
+
+IP=206.189.146.157 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13 | VT_Country=SG | VT_ASN=14061 | VT_AS_Owner=DigitalOcean, LLC | VT_Malicious=6 | VT_Suspicious=2 | VT_Harmless=51 | VT_Undetected=32
+

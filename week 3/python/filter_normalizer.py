@@ -310,8 +310,19 @@ if not INPUT_FILE.exists():
 # Read raw data
 
 
+raw_data = []
+
 with open(INPUT_FILE, "r", encoding="utf-8") as file:
-    raw_data = file.readlines()
+    for line in file:
+        line = line.strip()
+
+        if not line:
+            continue
+
+        if line.startswith("#"):
+            continue
+
+        raw_data.append(line)
 
 
 

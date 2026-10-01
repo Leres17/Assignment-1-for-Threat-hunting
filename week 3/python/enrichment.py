@@ -208,14 +208,19 @@ if not INPUT_FILE.exists():
 
 
 # Read normalized data
-with open(
-    INPUT_FILE,
-    "r",
-    encoding="utf-8"
-) as file:
+lines = []
 
-    lines = file.readlines()
+with open(INPUT_FILE, "r", encoding="utf-8") as file:
+    for line in file:
+        line = line.strip()
 
+        if not line:
+            continue
+
+        if line.startswith("#"):
+            continue
+
+        lines.append(line)
 
 enriched_records = []
 

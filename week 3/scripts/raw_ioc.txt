@@ -1,0 +1,213 @@
+# DDoS THREAT INTELLIGENCE - RAW DATASET
+# Week 3 - Data Collection
+
+# Sources:
+# ThreatFox / Abuse.ch
+# ANY.RUN Malware Trends
+# Flowtriq
+# Recorded Future
+
+# The dataset contains network IOCs collected from public threat-intelligence reports.
+
+# THREATFOX / AISURU
+# High-confidence botnet C2 indicators.
+# ThreatFox tags include DDoS, botnet, C2 and Mirai.
+
+IP=5.61.209.44 | Type=botnet c2 | Source=ThreatFox | Date=2026-07-31
+
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+
+IP=160.119.71.125 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+
+IP=206.189.146.157 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+
+# ANY.RUN / RONDODOX
+
+# RondoDox is a Linux-based botnet associated with DDoS activity. These IPs are listed by ANY.RUN as RondoDox IOCs.
+
+IP=74.194.191.52 | Type=rondodox botnet c2 | Source=ANY.RUN | Date=2026-05-18
+
+IP=88.221.169.152 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=23.216.77.28 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=48.192.1.64 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=150.171.28.11 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=142.251.20.132 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=20.31.169.57 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=150.171.22.17 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=57.153.246.3 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=150.171.109.193 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=150.171.27.11 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=150.171.109.194 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=92.123.104.33 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=142.251.110.95 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=74.178.240.61 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=23.52.181.141 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=20.190.160.2 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=104.18.22.222 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=48.209.6.48 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=23.52.181.212 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+# ANY.RUN / RONDODOX - URL INDICATORS
+
+URL=http://74.194.191.52/rondo.mips | Type=rondodox payload | Source=ANY.RUN | Date=2026-05-18
+
+URL=http://74.194.191.52/favicon.ico | Type=rondodox payload | Source=ANY.RUN | Date=2026-05-18
+
+# ADDITIONAL THREATFOX BOTNET DATA
+
+# Additional public ThreatFox indicators associated with botnet / malware infrastructure.
+
+IP=45.116.104.104 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-02
+
+IP=163.181.208.79 | Type=botnet loader | Source=ThreatFox | Date=2026-06-08
+
+IP=192.227.155.185 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+IP=185.122.171.124 | Type=botnet espionage | Source=ThreatFox | Date=2026-07-02
+
+IP=165.232.154.73 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+IP=95.81.79.153 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-24
+
+IP=64.89.162.59 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-11
+
+IP=64.89.163.22 | Type=botnet cryptominer | Source=ThreatFox | Date=2026-06-19
+
+IP=125.104.168.68 | Type=botnet espionage | Source=ThreatFox | Date=2026-07-06
+
+IP=192.140.176.79 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+IP=64.83.17.81 | Type=botnet malware | Source=ThreatFox | Date=2026-07-14
+
+IP=173.249.22.152 | Type=botnet malware | Source=ThreatFox | Date=2026-07-09
+
+IP=139.196.223.82 | Type=botnet c2 loader | Source=ThreatFox | Date=2026-06-02
+
+IP=194.48.251.24 | Type=botnet malware | Source=ThreatFox | Date=2026-06-19
+
+IP=167.88.168.76 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+IP=117.72.206.39 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+IP=54.165.230.182 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-02
+
+IP=91.221.191.167 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-06
+
+IP=156.245.144.203 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-02
+
+IP=217.217.97.75 | Type=botnet loader | Source=ThreatFox | Date=2026-07-06
+
+IP=199.217.99.189 | Type=botnet malware | Source=ThreatFox | Date=2026-06-30
+
+
+# THREATFOX / BOTNET DOMAINS
+
+Domain=viuc.jadoou.icu | Type=botnet malware | Source=ThreatFox | Date=2026-07-13
+
+Domain=gijoxupe.com | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+Domain=malrok.com | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+Domain=ns2.cryptwechat.com | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+Domain=spltst.icu | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+Domain=quygkusucsckmska.xyz | Type=botnet malware | Source=ThreatFox | Date=2026-07-16
+
+Domain=csysuceoqmmgemea.xyz | Type=botnet malware | Source=ThreatFox | Date=2026-07-16
+
+Domain=ecwoawoekuewcuke.xyz | Type=botnet malware | Source=ThreatFox | Date=2026-07-16
+
+Domain=sygqoqiegcoisqae.xyz | Type=botnet malware | Source=ThreatFox | Date=2026-07-16
+
+Domain=aioqwiqcmsgcuwmg.xyz | Type=botnet malware | Source=ThreatFox | Date=2026-07-16
+
+Domain=mylovedomen.asia | Type=botnet loader | Source=ThreatFox | Date=2026-06-10
+
+Domain=ziono.xyz | Type=botnet loader | Source=ThreatFox | Date=2026-06-02
+
+# THREATFOX / BOTNET URLs
+
+URL=https://mub.depansm188.top/botnet | Type=botnet loader | Source=ThreatFox | Date=2026-06-03
+
+URL=https://ritchie.click/lkg91c5q.js | Type=malware network | Source=ThreatFox | Date=2026-07-16
+
+URL=https://content-website-analytics.com/script.js | Type=botnet malware | Source=ThreatFox | Date=2026-07-17
+
+# RECORDED FUTURE / DDOSIA
+
+# These entries represent ASNs observed announcing DDoSia Tier 1 C2 IP address space.
+# The current parser will ignore these lines because they are ASN records rather than IP/domain/URL IOCs.
+
+ASN=AS399629 | Organization=BL Networks | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS210644 | Organization=Aeza International Ltd | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS215540 | Organization=Global Connectivity Solutions LLP | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS56971 | Organization=CGI Global Limited | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS400992 | Organization=ZhouyiSat Comms | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS199058 | Organization=Serva One Ltd | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS39798 | Organization=MivoCloud SRL | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS42624 | Organization=Global-Data System IT Corporation | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS215311 | Organization=Regxa Company for Information Technology Ltd | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS62005 | Organization=Blue VPS OU | Type=DDoSia infrastructure | Source=Recorded Future
+
+ASN=AS9009 | Organization=M247 Europe SRL | Type=DDoSia infrastructure | Source=Recorded Future
+
+# FLOWTRIQ / LORIKEET
+# DDoS incident involving NTP amplification and TCP SYN flood.
+# AS4134 and AS4837 were among the major source ASNs observed in the NTP amplification traffic.
+
+ASN=AS4134 | Organization=China Telecom | Type=NTP amplification source ASN | Source=Flowtriq
+
+ASN=AS4837 | Organization=CNCGROUP | Type=NTP amplification source ASN | Source=Flowtriq
+
+# INVALID DATA FOR FILTERING DEMONSTRATION
+
+# These records are intentionally invalid and should be removed by the filtering stage.
+
+IP=999.999.999.999 | Type=invalid ip | Source=Test
+
+IP=256.256.256.256 | Type=invalid ip | Source=Test
+
+IP=not_an_ip | Type=invalid ip | Source=Test
+
+IP=192.168.1.25 | Type=private ip | Source=Test
+
+IP=10.0.0.5 | Type=private ip | Source=Test
+
+Domain=bad-domain | Type=invalid domain | Source=Test
+
+URL=not-a-url | Type=invalid url | Source=Test
+
+# DUPLICATE DATA FOR FILTERING DEMONSTRATION
+
+
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13
+
+IP=206.189.146.157 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13

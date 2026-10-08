@@ -1,0 +1,90 @@
+IP=5.61.209.44 | Type=botnet c2 | Source=ThreatFox | Date=2026-07-31 | VT_Country=SC | VT_ASN=206264 | VT_AS_Owner=Amarutu Technology Ltd | VT_Malicious=15 | VT_Suspicious=2 | VT_Harmless=47 | VT_Undetected=27
+
+IP=47.107.224.89 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13 | Shodan_Country=China | Shodan_City=Shenzhen | Shodan_Organization=Aliyun Computing Co., LTD | Shodan_ISP=Hangzhou Alibaba Advertising Co.,Ltd. | Shodan_ASN=AS37963 | Shodan_Ports=80,7001,123,443 | VT_Country=CN | VT_ASN=37963 | VT_AS_Owner=Hangzhou Alibaba Advertising Co.,Ltd. | VT_Malicious=9 | VT_Suspicious=0 | VT_Harmless=50 | VT_Undetected=32
+
+IP=160.119.71.125 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13 | VT_Country=SC | VT_ASN=49870 | VT_AS_Owner=Alsycon B.V. | VT_Malicious=7 | VT_Suspicious=0 | VT_Harmless=50 | VT_Undetected=34
+
+IP=206.189.146.157 | Type=ddos botnet c2 | Source=ThreatFox | Date=2026-07-13 | VT_Country=SG | VT_ASN=14061 | VT_AS_Owner=DigitalOcean, LLC | VT_Malicious=6 | VT_Suspicious=2 | VT_Harmless=51 | VT_Undetected=32
+
+IP=74.194.191.52 | Type=rondodox botnet c2 | Source=ANY.RUN | Date=2026-05-18 | VT_Country=US | VT_ASN=19108 | VT_AS_Owner=Optimum | VT_Malicious=19 | VT_Suspicious=2 | VT_Harmless=42 | VT_Undetected=28
+
+IP=88.221.169.152 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=DE | VT_ASN=16625 | VT_AS_Owner=Akamai Technologies, Inc. | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=55 | VT_Undetected=36
+
+IP=23.216.77.28 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=DE | VT_ASN=20940 | VT_AS_Owner=Akamai International B.V. | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=48.192.1.64 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=US | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=1 | VT_Harmless=54 | VT_Undetected=36
+
+IP=150.171.28.11 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=US | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=56 | VT_Undetected=35
+
+IP=142.251.20.132 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=US | VT_ASN=15169 | VT_AS_Owner=Google LLC | VT_Malicious=1 | VT_Suspicious=0 | VT_Harmless=56 | VT_Undetected=34
+
+IP=20.31.169.57 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=NL | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=150.171.22.17 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=United States | Shodan_City=Redmond | Shodan_Organization=Microsoft Corporation | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=80,443 | Shodan_Hostnames=ln-0007.ln-msedge.net | VT_Country=US | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=55 | VT_Undetected=36
+
+IP=57.153.246.3 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=Netherlands | Shodan_City=Amsterdam | Shodan_Organization=Microsoft Limited UK | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=443 | Shodan_Hostnames=settings.data.microsoft.com | VT_Country=NL | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=150.171.109.193 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=United States | Shodan_City=Redmond | Shodan_Organization=Microsoft Corporation | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=80,443 | Shodan_Hostnames=apps.martinservera.se | VT_Country=US | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=1 | VT_Suspicious=0 | VT_Harmless=55 | VT_Undetected=35
+
+IP=150.171.27.11 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=United States | Shodan_City=Redmond | Shodan_Organization=Microsoft Corporation | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=80,443 | Shodan_Hostnames=ax-0002.ax-msedge.net | VT_Country=US | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=55 | VT_Undetected=36
+
+IP=150.171.109.194 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=United States | Shodan_City=Redmond | Shodan_Organization=Microsoft Corporation | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=80,443 | Shodan_Hostnames=tr.gigroup.com,hanport.hem.se | VT_Country=US | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=56 | VT_Undetected=35
+
+IP=92.123.104.33 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=DE | VT_ASN=20940 | VT_AS_Owner=Akamai International B.V. | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=142.251.110.95 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=US | VT_ASN=15169 | VT_AS_Owner=Google LLC | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=74.178.240.61 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=Netherlands | Shodan_City=Amsterdam | Shodan_Organization=Microsoft Corporation | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=443 | Shodan_Hostnames=sls.update.microsoft.com,glb.sls.prod.dcat.dsp.trafficmanager.net | VT_Country=NL | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=56 | VT_Undetected=35
+
+IP=23.52.181.141 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_Country=DE | VT_ASN=16625 | VT_AS_Owner=Akamai Technologies, Inc. | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=20.190.160.2 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18
+
+IP=104.18.22.222 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | VT_ASN=13335 | VT_AS_Owner=Cloudflare, Inc. | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=55 | VT_Undetected=36
+
+IP=48.209.6.48 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=Netherlands | Shodan_City=Amsterdam | Shodan_Organization=Microsoft Limited | Shodan_ISP=Microsoft Corporation | Shodan_ASN=AS8075 | Shodan_Ports=443 | Shodan_Hostnames=settings.data.microsoft.com | VT_Country=NL | VT_ASN=8075 | VT_AS_Owner=Microsoft Corporation | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=54 | VT_Undetected=37
+
+IP=23.52.181.212 | Type=rondodox botnet | Source=ANY.RUN | Date=2026-05-18 | Shodan_Country=Germany | Shodan_City=Frankfurt am Main | Shodan_Organization=Akamai Technologies, Inc. | Shodan_ISP=Akamai Technologies, Inc. | Shodan_ASN=AS16625 | Shodan_Ports=80,443 | Shodan_Hostnames=c.s-microsoft.com,a23-52-181-212.deploy.static.akamaitechnologies.com,i.s-microsoft.com,privacy.microsoft.com,wwwqa.microsoft.com,e13678.dspb.akamaiedge.net,staticview.microsoft.com,microsoft.com,www.microsoft.com | VT_Country=DE | VT_ASN=16625 | VT_AS_Owner=Akamai Technologies, Inc. | VT_Malicious=0 | VT_Suspicious=0 | VT_Harmless=55 | VT_Undetected=36
+
+IP=45.116.104.104 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-02 | VT_Country=NL | VT_ASN=215481 | VT_AS_Owner=FlexyNode | VT_Malicious=9 | VT_Suspicious=1 | VT_Harmless=49 | VT_Undetected=32
+
+IP=163.181.208.79 | Type=botnet loader | Source=ThreatFox | Date=2026-06-08 | Shodan_Country=Hong Kong | Shodan_City=Hong Kong | Shodan_Organization=Alibaba Cloud LLC | Shodan_ISP=Zhejiang Taobao Network Co.,Ltd | Shodan_ASN=AS24429 | Shodan_Ports=4506,22 | VT_Country=US | VT_ASN=134963 | VT_AS_Owner=Alibaba Cloud (Singapore) Private Limited | VT_Malicious=5 | VT_Suspicious=1 | VT_Harmless=53 | VT_Undetected=32
+
+IP=192.227.155.185 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02 | Shodan_Country=United States | Shodan_City=Elk Grove Village | Shodan_Organization=RackNerd LLC | Shodan_ISP=HostPapa | Shodan_ASN=AS36352 | Shodan_Ports=22 | Shodan_Hostnames=192-227-155-185-host.colocrossing.com | VT_Country=US | VT_ASN=36352 | VT_AS_Owner=HostPapa | VT_Malicious=7 | VT_Suspicious=2 | VT_Harmless=49 | VT_Undetected=33
+
+IP=185.122.171.124 | Type=botnet espionage | Source=ThreatFox | Date=2026-07-02 | VT_Country=NL | VT_ASN=214927 | VT_AS_Owner=Psb Hosting Ltd | VT_Malicious=6 | VT_Suspicious=1 | VT_Harmless=51 | VT_Undetected=33
+
+IP=165.232.154.73 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02 | Shodan_Country=United States | Shodan_City=Santa Clara | Shodan_Organization=DigitalOcean, LLC | Shodan_ISP=DigitalOcean, LLC | Shodan_ASN=AS14061 | Shodan_Ports=22 | VT_Country=US | VT_ASN=14061 | VT_AS_Owner=DigitalOcean, LLC | VT_Malicious=8 | VT_Suspicious=1 | VT_Harmless=49 | VT_Undetected=33
+
+IP=95.81.79.153 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-24 | VT_Country=FI | VT_ASN=207569 | VT_AS_Owner=Ihor Hosting Ltd | VT_Malicious=5 | VT_Suspicious=1 | VT_Harmless=51 | VT_Undetected=34
+
+IP=64.89.162.59 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-11 | VT_Country=US | VT_ASN=198584 | VT_AS_Owner=PIO-Hosting GmbH | VT_Malicious=12 | VT_Suspicious=1 | VT_Harmless=46 | VT_Undetected=32
+
+IP=64.89.163.22 | Type=botnet cryptominer | Source=ThreatFox | Date=2026-06-19 | VT_Country=US | VT_ASN=401626 | VT_AS_Owner=Netiface America, Inc. | VT_Malicious=19 | VT_Suspicious=3 | VT_Harmless=42 | VT_Undetected=27
+
+IP=125.104.168.68 | Type=botnet espionage | Source=ThreatFox | Date=2026-07-06 | VT_Country=CN | VT_ASN=4134 | VT_AS_Owner=Chinanet | VT_Malicious=10 | VT_Suspicious=2 | VT_Harmless=48 | VT_Undetected=31
+
+IP=192.140.176.79 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02 | VT_Country=CN | VT_ASN=146817 | VT_AS_Owner=Hubei Feixun Network Co., Ltd | VT_Malicious=14 | VT_Suspicious=2 | VT_Harmless=45 | VT_Undetected=30
+
+IP=64.83.17.81 | Type=botnet malware | Source=ThreatFox | Date=2026-07-14 | VT_Country=US | VT_ASN=979 | VT_AS_Owner=NetLab Global | VT_Malicious=5 | VT_Suspicious=2 | VT_Harmless=49 | VT_Undetected=35
+
+IP=173.249.22.152 | Type=botnet malware | Source=ThreatFox | Date=2026-07-09 | VT_Country=FR | VT_ASN=51167 | VT_AS_Owner=Contabo GmbH | VT_Malicious=10 | VT_Suspicious=1 | VT_Harmless=46 | VT_Undetected=34
+
+IP=139.196.223.82 | Type=botnet c2 loader | Source=ThreatFox | Date=2026-06-02 | Shodan_Country=China | Shodan_City=Shanghai | Shodan_Organization=Aliyun Computing Co., LTD | Shodan_ISP=Hangzhou Alibaba Advertising Co.,Ltd. | Shodan_ASN=37963 | Shodan_Ports=80,443 | Shodan_Hostnames=jdmap.org,api.jdmap.org | VT_Country=CN | VT_ASN=37963 | VT_AS_Owner=Hangzhou Alibaba Advertising Co.,Ltd. | VT_Malicious=10 | VT_Suspicious=3 | VT_Harmless=47 | VT_Undetected=31
+
+IP=194.48.251.24 | Type=botnet malware | Source=ThreatFox | Date=2026-06-19 | VT_Country=BG | VT_Malicious=12 | VT_Suspicious=1 | VT_Harmless=44 | VT_Undetected=34
+
+IP=167.88.168.76 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02 | VT_Country=US | VT_ASN=14956 | VT_AS_Owner=RouterHosting LLC | VT_Malicious=4 | VT_Suspicious=2 | VT_Harmless=51 | VT_Undetected=34
+
+IP=117.72.206.39 | Type=botnet loader | Source=ThreatFox | Date=2026-06-02 | Shodan_Country=China | Shodan_City=Tianjin | Shodan_Organization=Beijing Jingdong 360 Degree E-commerce Co., Ltd. | Shodan_ISP=China Telecom Beijing Tianjin Hebei Big Data Industry Park Branch | Shodan_ASN=141679 | Shodan_Ports=1433 | VT_Country=CN | VT_ASN=141679 | VT_AS_Owner=China Telecom Beijing Tianjin Hebei Big Data Industry Park Branch | VT_Malicious=11 | VT_Suspicious=2 | VT_Harmless=47 | VT_Undetected=31
+
+IP=54.165.230.182 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-02 | VT_Country=US | VT_ASN=14618 | VT_AS_Owner=Amazon.com, Inc. | VT_Malicious=3 | VT_Suspicious=1 | VT_Harmless=53 | VT_Undetected=34
+
+IP=91.221.191.167 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-06 | VT_Country=NL | VT_ASN=62005 | VT_AS_Owner=BlueVPS OU | VT_Malicious=3 | VT_Suspicious=1 | VT_Harmless=52 | VT_Undetected=35
+
+IP=156.245.144.203 | Type=botnet espionage | Source=ThreatFox | Date=2026-06-02 | VT_Country=SG | VT_ASN=54801 | VT_AS_Owner=Zillion Network Inc. | VT_Malicious=9 | VT_Suspicious=1 | VT_Harmless=46 | VT_Undetected=35
+
+IP=217.217.97.75 | Type=botnet loader | Source=ThreatFox | Date=2026-07-06 | VT_Country=FR | VT_ASN=214961 | VT_AS_Owner=Stellar Group SAS | VT_Malicious=19 | VT_Suspicious=0 | VT_Harmless=44 | VT_Undetected=28
+
+IP=199.217.99.189 | Type=botnet malware | Source=ThreatFox | Date=2026-06-30 | Shodan_Country=United States | Shodan_City=Columbus | Shodan_Organization=MadeIT inc. | Shodan_ISP=MadeIT inc. | Shodan_ASN=AS54455 | Shodan_Ports=80,443,22
+
